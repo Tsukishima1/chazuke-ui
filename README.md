@@ -1,19 +1,13 @@
 # chazuke-ui
 
-[![NPM version](https://img.shields.io/npm/v/chazuke-ui.svg?style=flat)](https://npmjs.org/package/chazuke-ui)
-[![NPM downloads](http://img.shields.io/npm/dm/chazuke-ui.svg?style=flat)](https://npmjs.org/package/chazuke-ui)
+<!-- [![NPM version](https://img.shields.io/npm/v/chazuke-ui.svg?style=flat)](https://npmjs.org/package/chazuke-ui) -->
+<!-- [![NPM downloads](http://img.shields.io/npm/dm/chazuke-ui.svg?style=flat)](https://npmjs.org/package/chazuke-ui) -->
 
-A react library developed with dumi
+这是一碗茶泡饭🍚！ 一个基于Dumi框架的React组件库，集成 [TailwindCSS](https://www.tailwindcss.cn/) ，自定义主题，更加灵活地使用你需要的组件罢 🎉😊
 
-## Usage
+## 仍在龟速开发中... 
 
-TODO
-
-## Options
-
-TODO
-
-## Development
+<!--## Development
 
 ```bash
 # install dependencies
@@ -33,8 +27,4 @@ $ npm run docs:build
 
 # check your project for potential problems
 $ npm run doctor
-```
-
-## LICENSE
-
-MIT
+``` -->
