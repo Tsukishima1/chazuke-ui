@@ -1,0 +1,13 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+/* 定义primary-color参数 */
+:root {
+  --primary-color: #96a9c8;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}

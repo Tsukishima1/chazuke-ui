@@ -15,7 +15,7 @@ const themeConfig = {
       text: 'Github',
     },
     {
-      link: '/components/action-icon',
+      link: '/guide',
       text: 'Get Started',
       type: 'primary',
     },
@@ -27,7 +27,7 @@ const themeConfig = {
     sourceUrl: `{github}/tree/master/src/{atomId}/index.tsx`,
   },
   description: 'Lobe UI is an open-source UI component library for building chatbot web apps',
-  footer: 'Made with 🤯 by LobeHub',
+  footer: 'Made with 🤯 by Chazuke',
   giscus: {
     category: 'Q&A',
     categoryId: 'DIC_kwDOJloKoM4CXsCu',
@@ -39,7 +39,7 @@ const themeConfig = {
     discord: 'https://discord.gg/AYFPHvv2jT',
     github: homepage,
   },
-  title: 'Dumi Theme LobeHub',
+  title: 'chazuke-UI',
 };
 
 export default defineConfig({
@@ -66,5 +66,7 @@ export default defineConfig({
   }`,
   ],
   themeConfig,
-  title: 'CHAZUKE-UI',
+  title: 'chazuke-UI',
+  plugins: ['@umijs/plugins/dist/tailwindcss'],
+  tailwindcss:{}
 });

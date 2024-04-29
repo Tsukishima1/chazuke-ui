@@ -12,9 +12,18 @@ group: # 分组
 <!-- 可以通过code加载示例代码，dumi会帮我们做解析 -->
 <code src="./demo/base.tsx"></code>
 
+## 不同大小
+
+<code src="./demo/size.tsx"></code>
+
+## 自定义
+
+<code src="./demo/custom.tsx"></code>
+
 ## API
 
-| 参数 | 说明 | 类型 | 默认值 |
-| --- | --- | --- | --- |
-| type | 按钮类型 | string | 'default''primary' |
-| onClick | 点击事件 | () => void | - |
+| 参数 | 说明 | 类型 | 默认值 | 可选值 |
+| --- | --- | --- | --- | --- |
+| type | 按钮类型 | string | default | primary / default / ghost / link |
+| size | 按钮大小 | string | md | sm / md / lg |
+| onClick | 点击事件 | (e: React.MouseEvent) => void | - | - |
