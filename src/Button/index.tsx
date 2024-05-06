@@ -7,15 +7,15 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-[#f0f0f0] text-[#333333]",
-        primary: "bg-primary text-[#ffffff]",
-        ghost: "bg-[transparent] border-[1px solid #1890ff] hover:bg-[#f0f0f0]",
-        link: "underline underline-offset-[4px] underline-[#1890ff] hover:underline-[#40a9ff] text-[--primary-color] px-[0px]",
+        default: "czk-btn-default bg-[#f0f0f0] text-[#333333]",
+        primary: "czk-btn-primary bg-primary text-[#ffffff]",
+        ghost: "czk-btn-ghost bg-[transparent] border-[1px solid #1890ff] hover:bg-[#f0f0f0]",
+        link: "czk-btn-link underline underline-offset-[4px] underline-[#1890ff] hover:underline-[#40a9ff] text-[--primary-color] px-[0px]",
       },
       size: {
-        sm: "text-[12px] px-[10px] py-[6px]",
-        md: "text-[14px] px-[15px] py-[8px]",
-        lg: "text-[16px] px-[20px] py-[10px]",
+        sm: "czk-btn-sm text-[12px] px-[10px] py-[6px]",
+        md: "czk-btn-md text-[14px] px-[15px] py-[8px]",
+        lg: "czk-btn-lg text-[16px] px-[20px] py-[10px]",
       }
     },
     defaultVariants: {
@@ -36,7 +36,7 @@ const Button: React.FC<ButtonProps> = (props) => {
   const Component = asChild ? 'span' : 'button';
   return (
     <Component
-      className={cn(buttonVariants({className, ...rest}))}
+      className={cn(buttonVariants({className, ...rest}),"czk-btn")}
       {...rest}
     />
   );
