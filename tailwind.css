@@ -3,11 +3,11 @@
 @tailwind utilities;
 @tailwind base;
 
-/* 定义primary-color参数 */
 :root {
-  --primary-color: #96a9c8;
-}
-
-.bg-primary {
-  background-color: var(--primary-color);
+  --primary: #96a9c8;
+  --button: #e5eaf0;
+  --background: #fff;
+  --border: #e2e8f0;
+  --input: #d7dbe0;
+  --ring: var(--primary);
 }
